@@ -1,9 +1,13 @@
-#include <iostream>
-#include <vector>
-#include <numeric>
-#include <string>
+/*
+ * @lc app=leetcode.cn id=524 lang=cpp
+ *
+ * [524] 通过删除字母匹配到字典里最长单词
+ */
 
-using namespace std; 
+// @lc code=start
+#include <string>
+#include <vector>
+using namespace std;
 
 class Solution {
 public:
@@ -12,7 +16,7 @@ public:
         for (string t : dictionary)
         {
             int i = 0, j = 0;
-            while(j < t.size())
+            while(i < s.size() && j < t.size())
             {
                 if (s[i] == t[j])
                 {
@@ -29,15 +33,5 @@ public:
         return res;
     }
 };
+// @lc code=end
 
-int main()
-{
-    string ans;
-    string s = "wordgoodgoodgoodbestword";
-    vector<string> dic{"word","good","best","good"};
-    Solution solu;
-
-    ans = solu.findLongestWord(s, dic);
-    cout<< ans << endl;
-
-}
