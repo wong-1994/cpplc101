@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Tue Sep 13 10:38:29 2022
+# Make data base, printed on Fri Sep 16 16:15:32 2022
 
 # Variables
 
@@ -17,7 +17,7 @@ make: *** No rule to make target 'all'.  Stop.
 # automatic
 ?F = $(notdir $?)
 # environment
-WSLENV = ELECTRON_RUN_AS_NODE/w:WT_SESSION::WT_PROFILE_ID
+WSLENV = VSCODE_WSL_EXT_LOCATION/up
 # default
 .SHELLFLAGS := -c
 # automatic
@@ -27,13 +27,13 @@ WSLENV = ELECTRON_RUN_AS_NODE/w:WT_SESSION::WT_PROFILE_ID
 # automatic
 @F = $(notdir $@)
 # makefile
-CURDIR := /home/vjian/learn/leetcode/cpplc
+CURDIR := /home/vjian/learn/leetcode/cpplc101
 # makefile
 SHELL = /bin/sh
 # environment
 VSCODE_NLS_CONFIG = {"locale":"en","availableLanguages":{}}
 # environment
-_ = /mnt/d/Users/wong/AppData/Local/Programs/Microsoft VS Code/bin/code
+_ = /home/vjian/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/node
 # makefile
 MAKEFILE_LIST := 
 # 'override' directive
@@ -53,7 +53,7 @@ CONDA_PREFIX = /home/vjian/miniconda3
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
-VSCODE_IPC_HOOK_CLI = /tmp/vscode-ipc-9cb9e404-b306-41ca-900a-4b869a1ebe58.sock
+VSCODE_IPC_HOOK_CLI = /tmp/vscode-ipc-9e40877e-0574-49e1-a352-540eed0fe8bc.sock
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
 # environment
@@ -63,13 +63,11 @@ LS_COLORS = rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:
 # environment
 CONDA_EXE = /home/vjian/miniconda3/bin/conda
 # environment
-PWD = /home/vjian/learn/leetcode/cpplc
+PWD = /home/vjian/learn/leetcode/cpplc101
 # default
 .LOADED := 
 # environment
-WSL_INTEROP = /run/WSL/989_interop
-# environment
-WT_SESSION = 8dc93750-b9ca-4242-93d3-bf0c306683dc
+WSL_INTEROP = /run/WSL/11_interop
 # environment
 VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # environment
@@ -97,7 +95,7 @@ MAKECMDGOALS := all
 # environment
 CONDA_SHLVL = 1
 # environment
-SHLVL = 1
+SHLVL = 0
 # default
 MAKE_VERSION := 4.2.1
 # environment
@@ -105,7 +103,7 @@ USER = vjian
 # makefile
 .DEFAULT_GOAL := 
 # environment
-NAME = Code
+NAME = wxj-work
 # automatic
 %D = $(patsubst %/,%,$(dir $%))
 # environment
@@ -128,8 +126,6 @@ MFLAGS = -pqrR
 +F = $(notdir $+)
 # environment
 VSCODE_HANDLES_SIGPIPE = true
-# environment
-WT_PROFILE_ID = {59b72ad2-09f7-55ec-af87-65d062af8472}
 # default
 MAKEFILES := 
 # automatic
@@ -157,9 +153,11 @@ TERM = xterm-256color
 # environment
 WSL_DISTRO_NAME = Ubuntu-20.04
 # environment
+MOTD_SHOWN = update-motd
+# environment
 _CE_CONDA = 
 # variable set hash-table stats:
-# Load=73/1024=7%, Rehash=0, Collisions=6/95=6%
+# Load=72/1024=7%, Rehash=0, Collisions=6/94=6%
 
 # Pattern-specific Variable Values
 
@@ -167,9 +165,9 @@ _CE_CONDA =
 
 # Directories
 
-# . (device 2064, inode 103597): 7 files, no impossibilities.
+# . (device 2064, inode 384381): 14 files, no impossibilities.
 
-# 7 files, no impossibilities in 1 directories.
+# 14 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -219,12 +217,12 @@ GNUmakefile:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 15 / storage = 164 B / avg = 10 B
-# current buf: size = 8162 B / used = 164 B / count = 15 / avg = 10 B
+# strcache buffers: 1 (0) / strings = 22 / storage = 286 B / avg = 13 B
+# current buf: size = 8162 B / used = 286 B / count = 22 / avg = 13 B
 
-# strcache performance: lookups = 18 / hit rate = 16%
+# strcache performance: lookups = 25 / hit rate = 12%
 # hash-table stats:
-# Load=15/8192=0%, Rehash=0, Collisions=1/18=6%
-# Finished Make data base on Tue Sep 13 10:38:29 2022
+# Load=22/8192=0%, Rehash=0, Collisions=1/25=4%
+# Finished Make data base on Fri Sep 16 16:15:32 2022
 
  
