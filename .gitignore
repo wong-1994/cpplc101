@@ -30,3 +30,9 @@
 *.exe
 *.out
 *.app
+
+# debugger
+practice
+practice.cpp
+debugger
+debugger.cpp
